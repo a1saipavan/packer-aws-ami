@@ -1,0 +1,12 @@
+{
+  "builders": [
+    {
+      "type": "amazon-ebs",
+	    "region": "us-east-1",
+      "ami_name": "packer-ami",
+      "source_ami": "ami-08e4e35cccc6189f4",
+	    "instance_type": "t2.micro",
+	    "ssh_username": "ec2-user"
+    }
+  ]
+}
